@@ -1,0 +1,171 @@
+{
+    "version": "0.4",
+    "title": "Devshield Archives",
+    "type": "archive",
+    "metadata": {
+        "template_type": "archive-blog",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "archive",
+        "elementor_pro_conditions": [
+            "include\/archive"
+        ],
+        "additional_template_information": [
+            "This is a \"Archive\" template for Elementor Pro.",
+            "This template will display on: All Archives."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "7088c5e0",
+            "settings": {
+                "flex_direction": "column",
+                "min_height": {
+                    "unit": "vh",
+                    "size": 40,
+                    "sizes": []
+                },
+                "min_height_tablet": {
+                    "unit": "vh",
+                    "size": "",
+                    "sizes": []
+                },
+                "min_height_mobile": {
+                    "unit": "vh",
+                    "size": "",
+                    "sizes": []
+                },
+                "flex_justify_content": "center"
+            },
+            "elements": [
+                {
+                    "id": "3af7242a",
+                    "settings": {
+                        "__dynamic__": {
+                            "title": "[elementor-tag id=\"\" name=\"archive-title\" settings=\"%7B%22include_context%22%3A%22yes%22%2C%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                        },
+                        "title": "Add Your Heading Text Here",
+                        "header_size": "h2",
+                        "align": "center"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "theme-archive-title",
+                    "elType": "widget"
+                },
+                {
+                    "id": "2a1fe64e",
+                    "settings": {
+                        "editor": "<p><a href=\"#\">Home<\/a> - Archives<\/p>",
+                        "align": "center",
+                        "__globals__": {
+                            "text_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text-editor",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "51d99782",
+            "settings": {
+                "flex_direction": "column",
+                "padding": {
+                    "unit": "em",
+                    "top": "6",
+                    "right": "1",
+                    "bottom": "6",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "8bf3a69",
+                    "settings": {
+                        "title": "Blog & Articles",
+                        "header_size": "h5",
+                        "align": "center"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "heading",
+                    "elType": "widget"
+                },
+                {
+                    "id": "7fcf763b",
+                    "settings": {
+                        "title": "Read Our Latest Blog & Articles",
+                        "align": "center"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "heading",
+                    "elType": "widget"
+                },
+                {
+                    "id": "791c42f3",
+                    "settings": {
+                        "classic_thumbnail_size_size": "full",
+                        "classic_title_tag": "h4",
+                        "classic_excerpt_length": 40,
+                        "classic_meta_separator": "-",
+                        "classic_read_more_text": "Read More +",
+                        "cards_meta_separator": "\u2022",
+                        "cards_read_more_text": "Read More \u00bb",
+                        "full_content_meta_separator": "\/\/\/",
+                        "classic_title_spacing": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "pagination_page_limit": "5",
+                        "pagination_prev_label": "&laquo; Previous",
+                        "pagination_next_label": "Next &raquo;",
+                        "text": "Load More",
+                        "load_more_no_posts_custom_message": "No more posts to show",
+                        "__globals__": {
+                            "classic_title_color": "globals\/colors?id=accent",
+                            "classic_meta_color": "globals\/colors?id=primary",
+                            "classic_meta_typography_typography": "globals\/typography?id=403094b",
+                            "classic_excerpt_color": "globals\/colors?id=accent",
+                            "classic_read_more_color": "globals\/colors?id=primary",
+                            "classic_read_more_typography_typography": "globals\/typography?id=accent"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "posts",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "page_template": "elementor_header_footer"
+    }
+}
